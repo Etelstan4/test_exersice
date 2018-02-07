@@ -14,7 +14,6 @@ public class Writer {
 
   private synchronized void add(int num) {
     res += num;
-    System.out.println(res);
   }
 
   public void startThread(String name, int value, boolean active) {
